@@ -106,6 +106,18 @@ span {
 
 }
 
+.footer-para {
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    font-family: var(--robot);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21.02px;
+   color: #6B7278;
+
+}
+
 /* -----------------------------------------------------------buttons--------------------------------------------------------- */
 .button-1 {
     font-family: var(--robot);
@@ -323,6 +335,10 @@ li:hover {
 
 .star-flex {
     display: flex;
+}
+
+.position-relative {
+    position: relative;
 }
 
 .t-left {
